@@ -1,0 +1,30 @@
+.jumbotron{
+    text-align: center;
+    margin-top: 15%; 
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+   
+   
+   
+}
+
+.btn.btn-success.dropdown-toggle ,.btn.btn-danger.dropdown-toggle{
+    margin-top: 5%;
+    float:right;
+    border-radius:  4px;
+   
+}
+.btn.btn-success.dropdown-toggle{
+    margin-left:50px ;
+   
+    
+}
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.form-control{
+    border-radius: 5px;
+}
+
