@@ -1,0 +1,86 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:  20px !important ;
+    line-height: 1.42857143;
+    color: #333;
+    font-weight: 400;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-pills .nav-link:hover{
+    border: 1px solid #0d6efd;
+
+    border-radius:10px;
+    box-shadow: 0px 0px 5px 5px #bbb;
+}
+.nav .nav-pills{
+    float: right;
+}  
+
+.jumbotron{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius:10px;
+    box-shadow: 0px 0px 20px 20px #bbb;
+}
+.label {
+    font-size: 100%;
+    margin-left: 5px;
+    padding: 5px;
+}
+.label-default{
+    background-color: #0d6efd;
+}
+.col-sm-6{
+    text-align: center;
+}
+.thumbnail{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #999;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #aaa;
+}
+#head{
+    margin-top: 10px ;
+    border-radius:10px ;
+    box-shadow: 0px 0px 20px 20px #bbb;
+}
+.option{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border: 2px solid #999;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 15px #aaa;
+    border-radius: 10px;
+
+}
+textarea {
+    width: 90%;
+    text-align: right;
+}
+#selected{
+    display: flex;
+}
+.row-add{
+    text-align: center;
+}
+.caption{
+    text-align: center;
+   
+}
+.thumbnail .caption{
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+}      
