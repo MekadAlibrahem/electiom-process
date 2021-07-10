@@ -1,0 +1,31 @@
+
+.panel-primary{
+    border-color: #337ab7;
+    margin: inherit;
+    text-align: center;
+}
+.panel-primary > .panel-heading {
+    background-color: #2291f0;
+    font-family: initial;
+}
+.form-control{
+    width: 40%;
+    float: right;
+}
+.btn{
+    font-size: 20px;
+}
+#button{
+    text-align: left;
+    margin-left: 60%;
+    display: inline;
+
+}
+#resultinsert{
+    margin-top: 10px;
+}
+#lg{
+    font-size: large;
+    width: 50%;
+}
+       

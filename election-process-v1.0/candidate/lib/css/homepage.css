@@ -1,0 +1,69 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-size: 20px; */
+    line-height: 1.42857143;
+    color: #333;
+    font-weight: 400;
+    font-size: 20px !important;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-pills .nav-link:hover{
+    border: 1px solid #0d6efd;
+
+    border-radius:10px;
+    box-shadow: 0px 0px 5px 5px #bbb;
+}
+.nav .nav-pills{
+    float: right;
+}  
+
+.jumbotron{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius:10px;
+    box-shadow: 0px 0px 20px 20px #bbb;
+}
+.label {
+    font-size: 100%;
+    margin-left: 5px;
+    padding: 5px;
+    /* visibility:unset; */
+}
+.label-default{
+    background-color: #0d6efd;
+}
+.well{
+   
+    text-align: right;
+}
+.form-control{
+    display: inline;
+    width: 60%;
+    font-size: 2rem;
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#textid {
+    height: auto;
+    width: 100%;
+}
+.btn{
+    font-size: 1.5rem;
+    margin-left:0px ;
+    margin-right: 0px;
+}
+#mydiv {
+    margin: auto;
+}
+#head{
+    margin-top: 10px ;
+    border-radius:10px ;
+    box-shadow: 0px 0px 20px 20px #bbb;
+}
