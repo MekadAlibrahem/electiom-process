@@ -1,10 +1,114 @@
-<!Doctype html > 
-<html> 
-  <head> 
-    <meta charset="utf-8" > 
-    <title >  Elections Automation Website  </title> 
-  </head> 
-  <body> 
+<!doctype html >
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+      <!-- icon -->
+      <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+      <!-- my style -->
+    <title >  Elections Automation Website  </title>
+  </head>
+  <body>
      Elections Automation Website
+     <footer>
+       <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h3> contact   </h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mekad-alibrahem-55062b213/">
+                            <i class="fab fa-linkedin" > </i> <span> Linkedin </span>
+                        </a>
+
+                    </li>
+                    <li>
+                      <a href="" >
+                        <i class="fab fa-github" > </i> <span> github </span>
+                      </a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#sendEmailModal">
+                            Send Email
+                        </button>
+                        <!-- Send Email  Modal -->
+                        <div class="modal fade " id="sendEmailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <form action="" class="needs-validation"  id="message_form" novalidate>
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Send Message </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div>
+                                           <div class="form-row form-card" >
+                                                    <div class="col-4">
+                                                        <label for="name"> Name : </label>
+                                                    </div>
+                                                    <div class="col-7">
+                                                        <input type="text" class="form-control" name="name" id="name" required  placeholder="First Name" >
+                                                        <small id="name" class="invalid-feedback">
+                                                            First name cannot be empty
+                                                        </small>
+                                                    </div>
+                                                <div class="col-4">
+                                                    <label for="email"> Email </label>
+                                                </div>
+                                                <div class="col-7" >
+                                                    <input type="email" class="form-control" name="email" id="email" required placeholder=" Your Email "  >
+                                                    <small id="email" class="invalid-feedback">
+                                                    Email Address cannot be empty
+                                                    </small>
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="number"> number </label>
+                                                </div>
+                                                <div class="col-7" >
+                                                    <input type="number" class="form-control" name="number" id="number" required placeholder="Your Number"  >
+                                                    <small id="number" class="invalid-feedback">
+                                                    Number Address cannot be empty
+                                                    </small>
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="subject"> subject </label>
+                                                </div>
+                                                <div class="col-7" >
+                                                    <input type="text" class="form-control" name="subject" id="subject" required placeholder="subject"  >
+                                                    <small id="subject" class="invalid-feedback">
+                                                    subject Address cannot be empty
+                                                    </small>
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="msg"> Your Message </label>
+                                                </div>
+                                                <div class="col-12" >
+                                                    <textarea class="form-control" id="msg"  name="msg" placeholder="Your Message Here!" required  ></textarea>
+
+                                                    <small id="msg" class="invalid-feedback">
+                                                    Message  cannot be empty
+                                                    </small>
+                                                </div>
+                                        </div>
+                                      </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary" name="send"  id="send">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4"> </div>
+        </div>
+      </div>
+      
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" ></script>
   </body>
 </html>
