@@ -1,6 +1,6 @@
-##Election automation website
+# Election automation website
 
-  ** the manager:
+  * the manager:
        - Managing the electoral processes and their types and the electoral districts for each type of election
        - User account management: suspend an account or modify an account type (candidate - user - employee) add candidates
   * Employee: 
