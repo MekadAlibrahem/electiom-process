@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body , .accordion-body{
+  font-family: "Kalam", 'cursive';
+  background-color: #242424;
+  color: rgba(245, 245, 18, 0.932) !important;
+
+}
+.link-dark{
+  color: rgba(245, 245, 18, 0.932) !important ;
+  text-decoration: none;
+}
+.navbar-brand , .nav-link {
+  color: rgba(245, 245, 18, 0.932) !important;
+}
+h1 , h2 , h5 ,  button{
+   color: #3fb180 !important;
+
+}
+header{
+  margin-top: 1em ;
+  margin-bottom: 3em ;
+}
+.title{
+  font-size: xxx-large ;
+}
+li{
+  padding: 5px ;
+}
+.btn-links{
+  margin: 42px;
+}
+.btn-links>button{
+  border-radius: 40% 41%;
+  background-color: #f9db3c;
+}
+.offcanvas-sidebar{
+  background-color: #242424;
+  color: rgba(245, 245, 18, 0.932) !important;
+}
+.accordion-item .accordion-button{
+  background-color: #151414bd ;
+}

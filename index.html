@@ -8,107 +8,426 @@
       <!-- icon -->
       <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
       <!-- my style -->
+      <link rel="stylesheet" href="css/carousel.css" >
+
+      <link rel="stylesheet" href="css/style.css" >
     <title >  Elections Automation Website  </title>
   </head>
   <body>
-     Elections Automation Website
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img alt="logo" src="images/EAWlogo.PNG" width="auto" height="42" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link"  target="_blank" href="https://github.com/MekadAlibrahem/election-process" > source code
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="Introduction" class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+              <div class="col-12 col-sm-3 align-self-center">
+                  <img src="images/EAWlogo.png" alt="logo-project" class="img-fluid">
+              </div>
+                <div class="col-12 col-sm-9">
+                    <h1> Elections Automation Website</h1>
+                    <p>
+                      It is a website that manages and facilitates the electoral process in order to obtain information about elections and results,
+                       and it also allows voters to vote through the site. <br>
+                       Developed by <small class="text-muted" > HTML , CSS , JAVASCRIPT , Bootstrap , AJAX , FaceApi.js , PHP ,MYSQL   </small>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+                  <div class="position-fixed bottom-0 end-0 btn-links">
+                    <button class="btn btn-warning btn-lg " type="button" data-bs-toggle="offcanvas" data-bs-target="#linksinpage" aria-controls="offcanvasWithBothOptions">
+                      <i class=" fa fa-solid fa-link"></i>
+                    </button>
+                  </div>
+                  <div class="offcanvas offcanvas-start offcanvas-sidebar" data-bs-scroll="true" tabindex="-1" id="linksinpage" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h1 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">go to</h1>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="list-unstyled ps-0">
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                        Getting started
+                        </button>
+                        <div class="collapse show" id="home-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#Introduction" class="link-dark rounded ">Introduction</a></li>
+                            <li><a href="#userstype" class="link-dark rounded"> Users type </a></li>
+
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                          User functions
+                        </button>
+                        <div class="collapse" id="dashboard-collapse">
+                          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="#admin" class="link-dark rounded">Admin</a></li>
+                            <li><a href="#emp" class="link-dark rounded">Employees</a></li>
+                            <li><a href="#candidate" class="link-dark rounded">Candidate</a></li>
+                            <li><a href="#voter" class="link-dark rounded">Voter</a></li>
+                            <li><a href="#system" class="link-dark rounded">System</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="mb-1">
+                      <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                        update
+                      </button>
+                      <div class="collapse" id="orders-collapse">
+                      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="#Introduction" class="link-dark rounded"> version 1 </a></li>
+                      <li><a href="#v2" class="link-dark rounded">version 2</a></li>
+
+                      </ul>
+                      </div>
+                      </li>
+                      <li class="border-top my-3"></li>
+                      <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                        contact
+                        </button>
+                          <div class="collapse" id="account-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                              <li>
+                                  <a target="_blank" href="https://www.linkedin.com/in/mekad-alibrahem-55062b213/" class="link-dark rounded">
+                                    <i class="fab fa-linkedin fa-lg " > </i> <span> Linkedin </span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a target="_blank" href="https://github.com/MekadAlibrahem/election-process" class="link-dark rounded">
+                                    <i class="fab fa-github fa-lg " > </i> <span> github </span>
+                                  </a>
+                              </li>
+                              <li>
+                                <a target="_blank" href="mailto:mekadalibrahem123@gmail.com" class="link-dark rounded">
+                                  <i class="fab fa-google-plus fa-lg "></i>  Send Email
+                                </a>
+                              </li>
+
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                  </div>
+              </div>
+    <main>
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div  id="userstype"class="row">
+          <div class="col-lg-4">
+            <img class="bg-placeholder-img rounded-circle" width="140" height="140" alt="admin-logo" src="images/admin2.logo.png" >
+            <h2>admin</h2>
+            <p>
+              He is responsible for managing the site, announcing the electoral processes and their details,
+              and publishing the results of each electoral process
+            </p>
+            <p><a class="btn btn-primary" href="#admin">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="bg-placeholder-img rounded-circle" width="140" height="140" alt="emp-logo" src="images/emp2.logo.png" >
+            <h2>Employees</h2>
+            <p>
+              He is an employee responsible for managing citizen data in
+                Location, residential areas and governorates
+            </p>
+            <p><a class="btn btn-primary" href="#emp">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+              <!-- <img class="bg-placeholder-img rounded-circle" width="140" height="140" alt="electoral candidate" src="" > -->
+            <h2>candidate</h2>
+            <p>
+              Every citizen who wishes to nominate himself for the position of President of the Republic or membership
+              People's Assembly or local administration councils
+
+            </p>
+            <p><a class="btn btn-primary" href="#candidate">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+              <img class="bg-placeholder-img rounded-circle" width="140" height="140" alt="users" src="images/users.logo.png" >
+            <h2> voter </h2>
+            <p>
+              Every citizen enjoys electoral rights <br>
+              He can vote or display the result of an electoral process
+            </p>
+            <p><a class="btn btn-primary" href="#voter">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+              <img class="bg-placeholder-img rounded-circle" width="140" height="140" alt="users" src="images/se.logo.jpg" >
+            <h2>system</h2>
+            <p>
+              The site’s operating system, which verifies the identity of users
+              and checks the validity of the elections for citizens on the specified date
+              and provides statistics and election results.
+            </p>
+            <p><a class="btn btn-primary" href="#system">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+              <!-- <img class="bg-placeholder-img rounded-circle" width="140" height="140" alt="electoral candidate" src="" > -->
+            <h2>guest</h2>
+            <p>
+              display the result of an electoral process
+            </p>
+            <p> </p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+             <hr class="featurette-divider">
+             <div class="row featurette">
+                 <div class="col-md-6">
+                   <h2  id="admin" class="title">admin</h2>
+                   <p class="lead">
+                     <ul class="list-unstyled">
+                       <li>
+                         User accounts management [edit] (account type - account status (activated / inactive))
+                       </li>
+                       <li>
+                         [Add - delete] a new candidate (the candidate's national number - the electoral process).
+                       </li>
+                       <li>
+                         [Add - delete - modify] an electoral process (number - name - type - start and end date for candidacy - start and end of elections).
+                       </li>
+                       <li>
+                         [Add - modify - delete] the type of electoral process (number - type).
+                       </li>
+                       <li>
+                         [Add - modify - delete] an electoral district (number - name - type of elections - number of seats allocated to it).
+                       </li>
+                       <li>
+                         [Add - delete] an electoral district (electoral district number - district number).
+                       </li>
+                       <li>
+                         In addition to the requirements of the voters
+                       </li>
+                     </ul>
+                   </p>
+                 </div>
+                 <div class="col-md-6">
+                   <img src="images/adminelectionprocesspage.jpg" alt="admin page" width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                  </div>
+              </div>
+          <hr class="featurette-divider">
+          <div class="row featurette">
+                <div class="col-md-6">
+                  <h2  id="emp" class="title">Employees</h2>
+                  <p class="lead">
+                    <ul class="list-unstyled">
+                      <li>
+                        [Add - Modify] Citizens’ data (name – father’s name – nickname – mother’s name and nickname – birth – gender – national number – governorate – region – civil registration number – place of civil registration – residential address – personal photo)
+                      </li>
+                      <li>
+                         [Add - Modify - Delete] Governorate (province number - governorate name).
+                      </li>
+                      <li>
+                        [Add - Modify - Delete] area (region number - its affiliated governorate - the name of the area)
+                      </li>
+                      <li>
+                        [Add - modify - delete] registration number (registration number - registration name).
+                      </li>
+                      <li>
+                        [Add - modify - delete] the nature of work (number - type of work)
+                      </li>
+                      <li>
+                        In addition to the requirements of the voters
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="images/empedituserpage.jpg" alt="admin page" width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                 </div>
+           </div>
+
+         <hr class="featurette-divider">
+         <div class="row featurette">
+               <div class="col-md-6">
+                 <h2  id="candidate" class="title">candidate</h2>
+                 <p class="lead">
+                   <ul class="list-unstyled">
+                     <li>
+                      [Add - Modify] personal information (academic certificate - work ....)
+                     </li>
+                     <li>
+                        Add an electoral program
+                     </li>
+                     <li>
+                       Modify or delete an electoral program
+                     </li>
+                     <li>
+                      In addition to the requirements of the voters
+                     </li>
+                   </ul>
+                 </p>
+               </div>
+               <div class="col-md-6">
+                 <div class="row">
+                   <div class="col-12">
+                     <img src="images/candhomepage.jpg" alt="admin page" width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                   </div>
+                   <div class="col-12">
+                     <img src="images/candprogrampage.jpg" alt="admin page" width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                   </div>
+                 </div>
+                </div>
+          </div>
+
+         <hr class="featurette-divider">
+         <div class="row featurette">
+               <div class="col-md-6">
+                 <h2  id="voter" class="title">voter</h2>
+                 <p class="lead">
+                   <ul class="list-unstyled">
+                     <li>
+                      Display a list of candidates
+                     </li>
+                     <li>
+                        View information about one of the candidates
+                     </li>
+                     <li>
+                      Presenting the electoral program of a candidate.
+                     </li>
+                     <li>
+                      Voting (electoral process - voting option)
+                     </li>
+                     <li>
+                    Review of the final result of the elections according to each constituency
+                     </li>
+                   </ul>
+                 </p>
+               </div>
+               <div class="col-md-6">
+                 <div class="row">
+                   <div class="col-12">
+                     <img src="images/resultpage.jpg" alt="resultpage page" width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                   </div>
+                   <div class="col-12">
+                     <img src="images/userpage.jpg" alt="userpage page" width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                   </div>
+                 </div>
+                </div>
+          </div>
+          <hr class="featurette-divider">
+          <div class="row featurette">
+                <div class="col-md-6">
+                  <h2  id="system" class="title">system</h2>
+                  <p class="lead">
+                    <ul class="list-unstyled">
+                      <li>
+                      Allow voting only within the specified date for each electoral process
+                      </li>
+                      <li>
+                          It is forbidden to add a candidate to an electoral process except on the date specified for that.
+                      </li>
+                      <li>
+                       Verify the user's ability to vote (appropriate age - not previously elected for the same electoral process -).
+                      </li>
+                      <li>
+                    Displaying the election result for each electoral process after the end of the election date (with the identification of the successful ones). Recording the voting process for each user (in order not to re-elect again)
+                      </li>
+                      <li>
+                     Calculating the election result and statistics for each electoral process
+                      </li>
+                      <li>
+                     Verify the identity of the users by  Face recognition
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                      <img src="images/faceid.jpg" alt="faceid " width="600" height="100%" class="featurette-image img-fluid mx-auto" >
+                 </div>
+           </div>
+
+
+
+       <hr class="featurette-divider">
+       <div class="container">
+         <div class="row" >
+           <h2> Update </h2>
+           <div class="col-12">
+             <div class="accordion" id="accordionExample">
+               <!-- start item -->
+                <div id="v2" class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      version 2
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>
+                        Not yet available
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+                <!-- end item -->
+              </div>
+           </div>
+
+
+         </div>
+       </div>
+
+    </main>
+
+     <hr class="featurette-divider">
      <footer>
        <div class="container">
         <div class="row">
             <div class="col-4">
                 <h3> contact   </h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li>
-                        <a href="https://www.linkedin.com/in/mekad-alibrahem-55062b213/">
-                            <i class="fab fa-linkedin" > </i> <span> Linkedin </span>
+                        <a  target="_blank" href="https://www.linkedin.com/in/mekad-alibrahem-55062b213/">
+                            <i class="fab fa-linkedin fa-lg " > </i> <span> Linkedin </span>
                         </a>
-
                     </li>
                     <li>
-                      <a href="" >
-                        <i class="fab fa-github" > </i> <span> github </span>
+                      <a  target="_blank" href="https://github.com/MekadAlibrahem/election-process" >
+                        <i class="fab fa-github fa-lg " > </i> <span> github </span>
                       </a>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#sendEmailModal">
-                            Send Email
-                        </button>
-                        <!-- Send Email  Modal -->
-                        <div class="modal fade " id="sendEmailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                            <div class="modal-content">
-                                <form action="" class="needs-validation"  id="message_form" novalidate>
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Send Message </h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <div>
-                                           <div class="form-row form-card" >
-                                                    <div class="col-4">
-                                                        <label for="name"> Name : </label>
-                                                    </div>
-                                                    <div class="col-7">
-                                                        <input type="text" class="form-control" name="name" id="name" required  placeholder="First Name" >
-                                                        <small id="name" class="invalid-feedback">
-                                                            First name cannot be empty
-                                                        </small>
-                                                    </div>
-                                                <div class="col-4">
-                                                    <label for="email"> Email </label>
-                                                </div>
-                                                <div class="col-7" >
-                                                    <input type="email" class="form-control" name="email" id="email" required placeholder=" Your Email "  >
-                                                    <small id="email" class="invalid-feedback">
-                                                    Email Address cannot be empty
-                                                    </small>
-                                                </div>
-                                                <div class="col-4">
-                                                    <label for="number"> number </label>
-                                                </div>
-                                                <div class="col-7" >
-                                                    <input type="number" class="form-control" name="number" id="number" required placeholder="Your Number"  >
-                                                    <small id="number" class="invalid-feedback">
-                                                    Number Address cannot be empty
-                                                    </small>
-                                                </div>
-                                                <div class="col-4">
-                                                    <label for="subject"> subject </label>
-                                                </div>
-                                                <div class="col-7" >
-                                                    <input type="text" class="form-control" name="subject" id="subject" required placeholder="subject"  >
-                                                    <small id="subject" class="invalid-feedback">
-                                                    subject Address cannot be empty
-                                                    </small>
-                                                </div>
-                                                <div class="col-4">
-                                                    <label for="msg"> Your Message </label>
-                                                </div>
-                                                <div class="col-12" >
-                                                    <textarea class="form-control" id="msg"  name="msg" placeholder="Your Message Here!" required  ></textarea>
+                        <a  class=""  target="_blank" href="mailto:mekadalibrahem123@gmail.com" >
+                          <i class="fab fa-google-plus fa-lg "></i>  Send Email
+                        </a>
 
-                                                    <small id="msg" class="invalid-feedback">
-                                                    Message  cannot be empty
-                                                    </small>
-                                                </div>
-                                        </div>
-                                      </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary" name="send"  id="send">Send</button>
-                                    </div>
-                                </form>
-                            </div>
-                            </div>
-                        </div>
                     </li>
                 </ul>
             </div>
             <div class="col-4"> </div>
         </div>
+        <p>&copy; 2021  &middot; <b><a href="https://mekadalibrahem.github.io/Portfolio/" target="_blank"> <i> Mekad Alibrahem </i></a> </b> </p>
       </div>
-      
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" ></script>
+
   </body>
 </html>
