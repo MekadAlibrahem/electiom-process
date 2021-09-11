@@ -45,3 +45,7 @@ li{
 .accordion-item .accordion-button{
   background-color: #151414bd ;
 }
+
+.offcanvas{
+  max-width: 30%
+}
